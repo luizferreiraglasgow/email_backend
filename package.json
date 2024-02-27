@@ -1,0 +1,33 @@
+{
+  "name": "banco-dados-avancado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guivahl/banco-dados-avancado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guivahl/banco-dados-avancado/issues"
+  },
+  "homepage": "https://github.com/guivahl/banco-dados-avancado#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/formbody": "^7.4.0",
+    "aws-sdk": "^2.1360.0",
+    "bull": "^4.10.4",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.26.1",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
